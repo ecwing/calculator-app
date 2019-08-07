@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #f3f3f3f3;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    width: 380px;
+    background: teal;
+
+    &__display {
+        background: #c4c4c4;
+        padding: 15px;
+    }
+
+    &__actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 15px;
+
+        button {
+            width: 100px;
+            height: 35px;
+            -webkit-appearance: none;
+            outline: none;
+            border: none;
+            margin: 5px;
+        }
+    }
+}
